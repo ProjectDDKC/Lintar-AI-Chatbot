@@ -1,0 +1,7 @@
+{
+    "api_url": "http://localhost:5001/v1/chat/completions",
+    "api_key": "4501650",
+    "model": "Lintar",
+    "temperature": 0.8,
+    "max_tokens": 150
+}
