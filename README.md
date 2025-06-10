@@ -9,7 +9,6 @@
 4.กด startchat.bat
 
 API
-
 สามารถใช้ api แบบ local ได้และมีแบบออนไลน์ (gimini api)
 
 สามารถปรับแต่ง prompt บุคลิก AI ได้ที่ ai_setup/Prompts.json
