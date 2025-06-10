@@ -38,6 +38,11 @@ def chatframework(gui, framechat, username, locationprofile):
         profilelabel1 = ctk.CTkLabel(framechat, text="AI Assistant", font=("Arial Unicode MS", 15))
         profilelabel1.place(relx=0.11, rely=0.05)
 
+        hi_lintartext = ctk.CTkLabel(chatbox, text="🤖 Lintar: สวัสดีจ้าาา มีอะไรให้ช่วยเหลือมั้ยค่ะ?", text_color="lightblue",
+                            font=("Arial Unicode MS", 20), anchor="w",
+                            wraplength=700, justify="left")
+        hi_lintartext.pack(fill="x", padx=10, pady=2)
+
         #===================== Command =========================#
         def send_message(event=None): 
             user_msg = chatentry.get()
