@@ -2,17 +2,19 @@
 
 1.ติดตั้ง python (แนะนำ python 3.10.9 ขึ้นไป)
 
-2.git clone https://github.com/ProjectDDKC/Lintar-AI-Chatbot.git
+2.ติดตั้ง git
 
-3.กด createVENV.bat (สำหรับครั้งแรก)
+3.หาตำแหน่งโฟลเดอร์ที่จะติดตั้งและเข้า cmd และพิมคำสั่ง git clone https://github.com/ProjectDDKC/Lintar-AI-Chatbot.git
 
-4.กด startchat.bat
+4.กด createVENV.bat (สำหรับครั้งแรก)
+
+5.กด startchat.bat
 
 
 ###API
 
 สามารถใช้ api แบบ local ได้และมีแบบออนไลน์ (gimini api)
 
-สามารถปรับแต่ง prompt บุคลิก AI ได้ที่ ai_setup/Prompts.json
+สามารถปรับแต่ง prompt บุคลิก AI ได้ที่ AI_profile/Prompts.json (ใช้ notepad++ หรือโปรแกรมแก้ไขข้อความก็ได้)
 
 ฟังชั่นอื่นฯจะถูกเพิ่มในอนาคต
