@@ -7,3 +7,4 @@ customtkinter
 keyboard
 google-generativeai
 pillow
+pyperclip

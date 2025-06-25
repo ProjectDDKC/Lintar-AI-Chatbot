@@ -1,3 +1,3 @@
 ### Link Start ###
-from main import main
-main.run_app()
+from main import main_class
+main_class.start()
